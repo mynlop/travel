@@ -1,3 +1,91 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.background{
+    background: url("../imagenes/fondo.jpg") center top;
+    background-size: cover;
+}
+.portada{   
+    height: 500px;
+    display: flex;
+    flex-direction: column;    
+}
+.logotipo{
+    margin-left: 0;
+    width: 100px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.contenedor{
+    max-width: 800px;
+    margin: auto;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.textoPrincipal{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.textoPrincipal a{
+    text-decoration: none;
+    color: white;
+    background-color: #EE434C;
+    padding: 8px;
+    border-radius: 15px;
+}
+.titulo{   
+    font-size: 65px;
+    text-shadow: 0 0 10px black;
+    margin: 0;
+}
+.titulo-a{
+    font-size: 24px;
+    text-shadow: 0 0 10px black;
+}
+.transportes{
+    color: #323F51;
+}
+.transportes h2{
+    font-size: 35px;
+}
+.transporte{
+    border: 2px solid #323F51;
+    border-radius: 25px;
+    padding: 0 30px;
+    margin: 25px 0;
+    height: 215px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.transporte-b img{
+    float: left;
+    left: 0;
+}
+.contenedor-trasporte-b{
+    position: absolute;
+    right: 60px;
+}
+.transporte img{
+    width: 400px;
+    float: right;
+    position: absolute;
+    top: -5px;
+    right: 0;
 }
