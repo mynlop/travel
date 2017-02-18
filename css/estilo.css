@@ -89,3 +89,32 @@ body{
     top: -5px;
     right: 0;
 }
+.footer{
+    background: #323F51;
+    padding: 15px;
+}
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .sector{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    color: white;
+}
+.footer .sector > img{width: 150px;}
+.footer .sector a{
+    text-decoration: none;
+    color: white;
+}
+.footer .sector ul{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.footer .sector li{list-style: none;}
+.footer .sector li a img{ width: 25px;}
