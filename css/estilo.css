@@ -1,11 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    background-color: #EFEFEF;
 }
 .background{
     background: url("../imagenes/fondo.jpg") center top;
     background-size: cover;
 }
+.background2{background: #323F51;}
+.background2 .logotipo{width: 60px;}
 .portada{   
     height: 500px;
     display: flex;
@@ -23,6 +26,10 @@ body{
 }
 .contenedor{
     max-width: 800px;
+    margin: auto;
+}
+.contenedor-blog{
+    max-width: 1000px;
     margin: auto;
 }
 .menu li{
@@ -130,3 +137,53 @@ th{
     text-align: left;
 }
 .tabla{padding: 60px 0;}
+.nota-principal img{width: 100%;}
+.nota-principal{position: relative;}
+.info-primera{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 40px;
+    color: white;
+    background: rgba(200,200,200,0.8);
+    padding: 15px;
+}
+.info-titulo{border-bottom: 1px solid gray;}
+.info-cuerpo{
+    display: flex;
+    justify-content: space-between;
+}
+.buscador .contenedor-blog{text-align: right;}
+.buscador input{
+    background: white;
+    color: #323F51;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.buscador button{
+    background: #323F51;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nota{
+    position: relative;
+    width: 300px;
+    margin: 10px 0;
+}
+.nota img{
+    width: 100%;
+}
+.info .info-cuerpo{
+    font-size: 14px;
+}
+.notas{
+    margin: 25px 0;
+}
+.notas .contenedor-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
