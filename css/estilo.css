@@ -1,7 +1,11 @@
+html{height: 100%;}
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 .background{
     background: url("../imagenes/fondo.jpg") center top;
@@ -67,6 +71,7 @@ body{
 }
 .transportes{
     color: #323F51;
+    width: 100%;
 }
 .transportes h2{
     font-size: 35px;
@@ -136,7 +141,10 @@ th{
     color: white;
     text-align: left;
 }
-.tabla{padding: 60px 0;}
+.tabla{
+    padding: 60px 0;
+    flex: 1;
+}
 .nota-principal img{width: 100%;}
 .nota-principal{position: relative;}
 .info-primera{
