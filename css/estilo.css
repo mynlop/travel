@@ -118,3 +118,15 @@ body{
 }
 .footer .sector li{list-style: none;}
 .footer .sector li a img{ width: 25px;}
+table, td, th{
+    border: 1px solid #323F51;
+    border-collapse: collapse;
+}
+td{padding: 10px;}
+th{
+    background: #323F51;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+.tabla{padding: 60px 0;}
