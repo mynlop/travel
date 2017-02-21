@@ -22,6 +22,10 @@ body{
     margin-left: 0;
     width: 100px;
 }
+.logotipo img{transition: all ease 1s;}
+.logotipo img:hover{
+    transform: scale(1.1);
+}
 .header{
     display: flex;
     align-items: center;
@@ -44,6 +48,10 @@ body{
     color: white;
     text-decoration: none;
     font-size: 24px;
+    transition: all ease 1s;
+}
+.menu li a:hover{
+    color: #EE434C;
 }
 .textoPrincipal{
     flex: 2;
@@ -53,12 +61,18 @@ body{
     justify-content: center;
     color: white;
 }
-.textoPrincipal a{
+.textoPrincipal button{
     text-decoration: none;
     color: white;
-    background-color: #EE434C;
+    background: linear-gradient(to right, #EE434C , #EE434C);
     padding: 8px;
-    border-radius: 15px;
+    border-radius: 12px 20px;
+    border: none;
+    transition: all ease 1.5s;
+    cursor: pointer;
+}
+.textoPrincipal button:hover{
+    background: linear-gradient(to right, #EE434C , #323F51);
 }
 .titulo{   
     font-size: 65px;
@@ -85,6 +99,10 @@ body{
     position: relative;
     display: flex;
     align-items: center;
+    transition: all ease 1s;
+}
+.transporte:hover{
+    box-shadow: 0 10px 30px black;
 }
 .transporte-b img{
     float: left;
@@ -129,10 +147,22 @@ body{
     padding: 0;
 }
 .footer .sector li{list-style: none;}
-.footer .sector li a img{ width: 25px;}
+.footer .sector li a img{ 
+    width: 25px;
+    filter: grayscale(1);
+    transition: all ease 0.5s;
+}
+.footer .sector li a img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
 table, td, th{
     border: 1px solid #323F51;
     border-collapse: collapse;
+    transition: all ease 1s;
+}
+tr:hover{
+    background: gray;
 }
 td{padding: 10px;}
 th{
@@ -154,6 +184,11 @@ th{
     color: white;
     background: rgba(200,200,200,0.8);
     padding: 15px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.info-primera:hover{
+    background: rgba(200,200,200,1);
 }
 .info-titulo{border-bottom: 1px solid gray;}
 .info-cuerpo{
@@ -180,6 +215,12 @@ th{
     position: relative;
     width: 300px;
     margin: 10px 0;
+    transition: all ease 0.8s;
+    cursor: pointer;
+}
+.nota:hover{
+    box-shadow: 0 0 5px black;
+    padding: 10px;
 }
 .nota img{
     width: 100%;
